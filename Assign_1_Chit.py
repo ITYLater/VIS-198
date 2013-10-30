@@ -64,10 +64,11 @@ print avg1_wpd
 
 type(json2_writes) #Type is ndarray, how to manipulate?
 
-json1_string.replace("None", "0")
-json2_string.replace("None", "0")
-json3_string.replace("None", "0")
-json4_string.replace("None", "0")
+#Will not work, because 0 is still read in as a string
+#json1_string.replace("None", "0")
+#json2_string.replace("None", "0")
+#json3_string.replace("None", "0")
+#json4_string.replace("None", "0")
 
 
 
