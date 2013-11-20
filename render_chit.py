@@ -1,4 +1,4 @@
-import pygame #Currently not working
+import pygame #Currently unable to install module
 
 """
 .. module:: dummyrenderer
