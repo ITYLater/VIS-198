@@ -1,4 +1,7 @@
-import pygame #Currently unable to install module
+import pygame #unable to import
+import sys
+import json
+import hashlib
 
 """
 .. module:: dummyrenderer
