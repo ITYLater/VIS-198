@@ -1,4 +1,4 @@
-import pygame #unable to import
+import pygame # currently unable to install pygame 
 import sys
 import json
 import hashlib
@@ -17,9 +17,13 @@ class DummyRenderer:
         for MPIScope.
     """
 
+
     def __init__(self):
         """Any initialization goes here
         """
+        # Initialize job variables:
+        # name, qtime, queue, jobstate, walltimereq
+        # start_time, job_owner
         return
 
     def start(self):
@@ -30,6 +34,7 @@ class DummyRenderer:
     def parse(self, data):
         """Do something to the data
         """
+        # Filter out null if needed
         return data
 
     def draw(self, jobData):
@@ -37,7 +42,9 @@ class DummyRenderer:
            This method is only called when the
            UpdateThread actually has data (IE: is not None)
         """
-        
+        # Draw background of circle w/ various radial lines
+        # Create square for job, color based on hex of characters
+        # Place square based on start_time, figure out coordinates
         return
 
     def flip(self):
