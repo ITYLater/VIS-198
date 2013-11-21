@@ -24,11 +24,13 @@ class DummyRenderer:
         # Initialize job variables:
         # name, qtime, queue, jobstate, walltimereq
         # start_time, job_owner
+        # Create object
         return
 
     def start(self):
         """Do any initialization required
         """
+        # Start renderer
         return
 
     def parse(self, data):
